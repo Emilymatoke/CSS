@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     display: grid;
-}
+    grid-template-columns: 30% auto;
 
 header,
 aside,
@@ -18,14 +18,17 @@ main {
 
 header {
     background: #e19ded;
+    grid-template-rows: 60px;
 }
 
 aside {
     background: #e35c8b;
+    grid-template-rows: auto;
 }
 
 footer {
     background: black;
+    grid-template-rows: 60px;
 }
 
 .navigation-list {
