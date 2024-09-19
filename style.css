@@ -12,7 +12,8 @@
     grid-gap: 20px;
     height: 100vh;
     border: 10px solid #089288;
-    
+    justify-content: center;
+    align-content: center;
 }
 
 .grid-item {
